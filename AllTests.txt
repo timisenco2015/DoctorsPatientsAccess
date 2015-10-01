@@ -1,0 +1,194 @@
+
+Running Test Suite...
+
+---------------------------
+
+Opened stub database database/PD
+
+Running testNullEmail...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNonexistentEmail...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testExistentEmail...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testEmptyEmail...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testInvalidEmail...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNullNames...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNotNullString...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNotValidValue...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testValidValue...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNotFullnames...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testFullnames...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNullPatientList...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNotNullPatientList...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testValidInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNullInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testWrongInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testValidInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNullInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testWrongInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testValidInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testNullInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testWrongInput...PASSED
+
+Closed stub database PD
+
+Opened stub database database/PD
+
+Running testValidInput...PASSED
+
+Closed stub database PD
+
+Running testNullDoctorPatients...PASSED
+
+Running testDoctorID...PASSED
+
+Running testPatientID...PASSED
+
+Running testEquals...PASSED
+
+Running testNullInputs...PASSED
+
+Running testNullInput...PASSED
+
+Running testNullDoctor...PASSED
+
+Running testDoctorID...PASSED
+
+Running testDoctorName...PASSED
+
+Running testDoctorPhoneNum...PASSED
+
+Running testNullPatient...PASSED
+
+Running testPatientName...PASSED
+
+Running testPatientId...PASSED
+
+Running testPatientEmail...PASSED
+
+Running testPatientsDetails...PASSED
+
+Running testpatientAllergies...PASSED
+
+Running testpatientPrescriptions...PASSED
+
+Running testNullInput...PASSED
+
+Running testNullPrescription...PASSED
+
+Running testPrescriptionName...PASSED
+
+Running testPrescriptionDosage...PASSED
+
+Running testPrescriptionOrderStatus...PASSED
+
+Running testPrescriptionRefills...PASSED
+
+Opened stub database database/PD
+
+Running dataAccessTest...PASSED
+
+Closed stub database PD

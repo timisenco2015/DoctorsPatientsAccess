@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="comp3350.dpa.HomeActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@layout/activity_home"
+        android:layout_marginTop="20dp"
+        android:text="@string/textTitle" />
+
+    <Button
+        android:id="@+id/buttonDoctor"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonPatients"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:minWidth="45dp"
+        android:onClick="buttonDoctorOnClick"
+        android:text="@string/doctors" />
+
+    <Button
+        android:id="@+id/buttonPharmacists"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPatients"
+        android:layout_alignStart="@+id/buttonPatients"
+        android:layout_below="@+id/buttonPatients"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="@string/pharmacist" />
+
+    <Button
+        android:id="@+id/buttonPatients"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonDoctor"
+        android:onClick="buttonPatientOnClick"
+        android:layout_centerVertical="true"
+        android:text="@string/patients" /> 
+
+</RelativeLayout>

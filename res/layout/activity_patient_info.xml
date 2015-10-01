@@ -1,0 +1,234 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="comp3350.dpa.presentation.PatientInfoActivity"
+    android:background="@drawable/bg" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+
+        <TextView
+            android:id="@+id/patientName"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+	
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientIdTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/healthID"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+
+	    <TextView
+	        android:id="@+id/patienthID"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="123456"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+	
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientDobTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dob"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+
+	    <TextView
+	        android:id="@+id/patientDOB"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="1234/05/06"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	    
+	<Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientAddressTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+
+	    <TextView
+	        android:id="@+id/patientAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="1234 Some Random Street"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	
+	<Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientPCTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/postalCode"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+
+	    <TextView
+	        android:id="@+id/patientPC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="H0H 0H0"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+	
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/patientPhoneTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNumber"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:width="200dp" />
+	
+	    <TextView
+	        android:id="@+id/patientPhoneNum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="204 567 8910"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+
+   	<Space
+        android:layout_width="1dp"
+        android:layout_height="10dp" />
+    
+	<TableRow
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	    
+	    <TextView
+	        android:id="@+id/patientAllergiesTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/allergies"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:width="200dp" />
+        
+	    <TextView
+	        android:id="@+id/patientAllergiestv"
+	        android:layout_width="350dp"
+	        android:layout_height="80dp"
+	        android:text="Peanuts, Pennicillin, Tomatoes, Onions, Advil"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:width="0dip" />
+
+	</TableRow>
+		
+	<Space
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+	
+	<TableRow
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    
+	    <TextView
+	        android:id="@+id/patientPrescriptionsTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/patientPrescriptiontv"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:width="200dp" />
+	        
+	</TableRow>
+	
+	<Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	        
+	        <ListView
+	            android:id="@+id/listPrescriptions"
+	            android:layout_width="match_parent"
+	            android:layout_height="250dp"
+	            android:layout_gravity="top" >
+	        
+	   	 </ListView>
+	</LinearLayout>
+	
+		<Space
+        android:layout_width="1dp"
+        android:layout_height="70dp" />
+	
+	<TableRow
+		 	android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+	
+	<Button
+		    android:id="@+id/buttonAdd"
+		    android:layout_width="100dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/Add_new_prescription" 
+		    android:onClick = "buttonNewPrescriptionOnClick"/>
+            
+		</TableRow>
+	
+</TableLayout>
+
+    

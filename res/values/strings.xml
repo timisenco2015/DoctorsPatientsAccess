@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyDealer</string>
+    <string name="action_settings">Settings</string>
+    <string name="doctors_prescription_system">Doctors Prescription System</string>
+    <string name="title_activity_doctors">DPA: Doctors</string>
+    <string name="title_activity_patients">DPA: Patients</string>
+    <string name="title_activity_doctors_prescription">DPA: Doctors Prescription History</string>
+    <string name="title_activity_patients_doctors">DPA: Patients Appointments</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="prescription_id">Prescription ID</string>
+    <string name="health_id">Patient ID</string>
+    <string name="fatalError">Fatal error</string>
+    <string name="warning">Warning</string>
+    <string name="doctors">Doctors</string>
+    <string name="pharmacists">Pharmacists</string>
+    <string name="textTitle">Doctors Prescription System</string>
+    <string name="search">Search</string>
+    <string name="go">Go</string>
+    <string name="title_activity_patient_info">PatientInfoActivity</string>
+    <string name="title_activity_patient_list">PatientListActivity</string>
+    <string name="patients">Patients</string>
+    <string name="pharmacist">Pharmacists</string>
+    <string name="patientPrescriptiontv">"Prescriptions: "</string>
+    <string name="Add_new_prescription">New Prescription</string>
+    <string name="view_Prescription">View Prescription</string>
+    <string name="title_activity_prescription">PrescriptionActivity</string>
+    <string name="add_presciption">Add</string>
+    <string name="back_to_parent_page">Back</string>
+    <string name="prescription_name">Prescription Name</string>
+    <string name="prescription_dosage">Prescription Dosage</string>
+    <string name="prescription_refills">Prescription Refills</string>
+    <string name="title_activity_order_prescription">OrderPrescriptionActivity</string>
+	<string name="remaining_refills">Refills Remaining (:after placing your order)</string>
+	<string name="order_presc">Place Order</string>
+	<string name="login">Login</string>
+	<string name="editInfo">Edit Info</string>
+	<string name="enterEmail">Enter your email</string>
+	<string name="patientName">Patient Name:</string>
+	<string name="healthID">Health ID:</string>
+	<string name="dob">Date of Birth:</string>
+	<string name="address2">Address:</string>
+	<string name="postalCode">Postal Code:</string>
+	<string name="phoneNumber">Phone Number:</string>
+	<string name="allergies">Known Allergies:</string>
+	<string name="prescriptionName">Prescription Name:</string>
+	<string name="prescriptionDosage">Dosage:</string>
+	<string name="prescriptionRefills">Refills:</string>
+	<string name="success">Success</string>
+	<string name="prescStatus">Order Status:</string>
+	<string name="doctorLogin">Enter your doctor ID</string>
+</resources>

@@ -1,0 +1,103 @@
+Group 11 Log:
+30/01/2015	- Meeting with Mariam, Mark, Ayo, Churchill
+			- Chose one of the big user stories (Doctor big user story) to implement for iteration 1.
+			- Broke down into small developer tasks
+			
+02/02/2015 	- Meeting with Mariam, Mark, Ayo, and Scott
+			- Assigned tasks for everyone:
+				- Mariam: GUI for displaying patient info.
+				- Mark: Make stub db and retrieve patient information.
+				- Scott: Patient list GUI
+				- Ayo: Search by patient name
+				- Churchill: Home page GUI.
+				
+09/02/2015	- Mariam, Mark, Scott, Ayo, Churchill
+			- Putting code together
+			- Discussing the amount of testing required
+			- Need to write the command line interface (Mariam will do it)			
+09/02/2015	- Mariam completed command-line interface.
+09/02/2015	- Mark completed the Patient class as well as the AccessPatients class. 
+			- Mark completed the DataAccessStub
+09/02/2015	- Scott completed the Patient list GUI
+
+10/02/2015  - Mark modified the Patient class to include additional getter methods and more intelligent null-handling.
+10/02/2015	- Mariam completed the patient info layout and activity, and edited the batch files
+10/02/2015  - Ayobami worked on patientTest class. I did an improvement on mark's test
+
+11/02/2015  - Ayobami worked on AccessTest class to adjust some test error
+
+10/02/2015	- Mariam completed the patient info layout and activity, and edited the batch files
+
+11/02/2015	- Scott completed the home page GUI
+
+13/02/2015	- Mariam made a Prescription object and incorporated it into the code/tests
+
+14/02/2015	- Mariam added a ListView to the Patient Info GUI to display a list of prescriptions instead of comma separated strings (2hr)
+			- FIXED ***Still need to write tests for the Prescription Object***
+
+17/02/2015	- Ayobami worked on the add patient's prescription GUI (1hr)
+
+18/02/2015	- Mark worked on the Doctor object and tested it (1hr)
+			- Mark tested the Prescription object (1hr)
+
+23/02/2015	- Mark worked on the design for the prescription list (1hr)
+23/02/2015	- Ayobami worked on prescription ordered GUI
+
+23/02/2015	- Ayobami worked on prescription ordered GUI
+
+25/02/2015	- Mark added Emails to Patient object and tested it and added orderStatus (and getters and setters) to Prescription object and tested it (1hr)
+
+25/02/2015	- Mark, Ayo, and Scott meet to discuss tests and adding an email to the patients for there login (45min)
+
+26/02/2015	- Scott worked on patient login design(1hr)
+
+27/02/2015	- Scott finished the email search for patient login(patient login page completed) (1hr)
+			- Scott worked on patient info view (1.5hrs)
+			
+28/02/2015	- Scott finished the patient info view GUI(30min)
+
+04/02/2015	- Scott fixed some bugs on the home activity and patient login page(1.5hr)
+
+05/03/2015	- Mariam worked on making the database tables and worked on DataAccessObject (2.5hrs)
+
+06/03/2015	- Ayobami worked on the add prescription and oder prescription (50 mins)
+			- Ayobami added some view codes prescriptionListActivity (10 mins)
+			- Ayobami Worked on DatabaseAccess class and AccessPrescription class (10 mins)
+			
+06/03/2015	- Meeting with Mariam, Mark and Scott: Discussed issues with the app.
+			- Reviewed the outline of the whole app (1.5hrs)
+			
+06/03/2015	- Fixed issues with the patient info activity. Now the app works again (20min)
+
+06/03/2015	- Scott fixed more bugs (1hr)
+
+06/03/2015	- Mariam briefly made the DoctorPatients object (30min)
+			- Mariam fixed broken activities and layouts (PatientInfoActivity, PatientInfoViewActivity, PrescriptionListActivity and OrderPrescriptionActivity) (3hrs)
+			
+07/03/2015	- Mariam fixed the Order button in the Order Prescription Activity (10min)
+			- Mariam worked on getting the DB stuff working (3hr)
+			- Scott worked on DoctorLogin and modifying PatientListActivity (1.5hrs)
+			
+08/03/2015	- Mariam and Mark worked on refactoring the project and rewriting the AccessData classes and methods to fit the new interface (4hrs)
+			- Mariam worked on fixing bugs and issues with the HSQLDB and got it to work (3hrs)
+			- Mark worked on getting all the tests working again (2hrs)
+			- FIXED by Mark **BUG: Search bar is case sensitive after switching to real db**
+			- FIXED by Mariam **BUG: Order prescription button option isn't remembered**
+			- FIXED by Scott **BUG: Add prescription button isn't working**
+			- Scott fixed some bugs with DoctocLoginActivity(1hr)
+			- Scott finished modify PatientListActivity to reflect the doctor login (2hrs)
+			- Ayobami write the the test for the accessPatients in the bussiness layer (40 mins)
+			- Ayobami worked on the AccessPrescription to connect with data stub (30 mins)
+			
+09/03/2015	- Mark fixed SearchPatients so that it A) works and B) is case-insensitive (noteven10mins #2fast2furious #yolo)
+			- FIXED by Mariam **BUG: Add prescription isn't actually saving to db**
+			- DONE by Mariam **TASK: Command line interface needs to be redone**)
+			- Scott and Mariam updated the readme.txt (15min)
+			- Ayobami fixed the bug in Addprescription (20min)
+			- Ayobami worked on the business layer testing (1hr 30 mins)
+			- Mariam fixed the order prescription button in the patient view. Both stub and real db should be working now. (2hr)
+			- Mark polished up and finalized all the tests. (1hr)
+			- Mariam changed the activities to pass around IDs instead of objects in order to allow constant database retrieval (30min)
+			- Mariam finished writing the command-line interface in CLI (1hr)
+			- Mariam finished writing the developer tasks on flash cards for iteration2 (30min)
+			
